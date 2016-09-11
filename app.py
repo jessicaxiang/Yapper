@@ -22,9 +22,9 @@ def home():
 		return redirect('lyft')
 	return render_template('main.html', form=form)
 
-@app.route('/welcome')
-def welcome():
-    return render_template('welcome.html')  # render a template
+@app.route('/business')
+def business():
+    return render_template('business.html')  # render a template
 
 @app.route('/lyft')
 def lyft():
